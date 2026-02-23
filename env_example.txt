@@ -1,0 +1,19 @@
+# APPLICATION CREDENTIALS
+BASE_URL=https://abcd-backend.com/
+FRONT_END_URL=https://abcd.com
+FRONT_END_PASSWORD_RESET_URL=https://abcd.com/reset-password
+FRONT_END_REGISTRATION_URL=https://abcd.com/register
+DEBUG=True
+PORT=5000
+REDIS_URL=redis://localhost:6379
+SQLALCHEMY_DATABASE_URI=postgresql://postgres:postgres@localhost:5432/db_name
+SQLALCHEMY_TRACK_MODIFICATIONS=True
+AUTH_TOKEN_EXPIRES=604800
+
+# AWS CREDS
+AWS_ACCESS_KEY_ID=awsaccesskey
+AWS_SECRET_ACCESS_KEY=awssecretaccesskey123
+S3_BUCKET_NAME_PROD=s3bucketnameprod
+S3_BUCKET_NAME_DEV=s3bucketnamedev
+S3_BUCKET_NAME_TEST=s3bucketnametest
+S3_REGION=us-east-1
